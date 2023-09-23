@@ -1,0 +1,5 @@
+"0","# code here"
+"0","ggplotly(plot_composition, tooltip = ""text"")"
+"2","Error in tempfile(pattern = ""_rs_html_deps_"", tmpdir = outputFolder, fileext = "".json"") : 
+  temporary name too long
+"

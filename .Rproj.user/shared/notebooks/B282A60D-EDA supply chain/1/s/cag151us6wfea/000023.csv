@@ -1,0 +1,5 @@
+"0","sum_sales <- scm %>%"
+"0","  mutate(date = as_date(order_date)) %>%"
+"0","  group_by(date) %>%"
+"0","  summarise(total_sales = sum(sales))"
+"0","sum_sales"

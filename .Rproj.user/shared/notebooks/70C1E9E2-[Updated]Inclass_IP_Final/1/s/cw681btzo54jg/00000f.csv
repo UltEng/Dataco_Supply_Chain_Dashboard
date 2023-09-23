@@ -1,0 +1,30 @@
+"0","# dplyr"
+"0","workers <- workers %>% "
+"0","  mutate(year = as.factor(year),"
+"0","         occupation = as.factor(occupation),"
+"0","         major_category = as.factor(major_category),"
+"0","         minor_category = as.factor(minor_category))"
+"0","glimpse(workers)"
+"1","Rows: 2,088"
+"1",""
+"1","
+"
+"1","Columns: 12"
+"1",""
+"1","
+"
+"1","$ year                  [3m[38;5;246m<fct>[39m[23m 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, …
+$ occupation            [3m[38;5;246m<fct>[39m[23m ""Chief executives"", ""General and operations managers"", ""Legislators"", ""Advertising and pro…
+$ major_category        [3m[38;5;246m<fct>[39m[23m ""Management, Business, and Financial"", ""Management, Business, and Financial"", ""Management,…
+$ minor_category        [3m[38;5;246m<fct>[39m[23m ""Management"", ""Management"", ""Management"", ""Management"", ""Management"", ""Management"", ""Manag…
+$ total_workers         [3m[38;5;246m<int>[39m[23m 1024259, 977284, 14815, 43015, 754514, 44198, 109703, 489048, 990611, 14656, 307004, 41185…
+$ workers_male          [3m[38;5;246m<int>[39m[23m 782400, 681627, 8375, 17775, 440078, 16141, 72873, 354369, 460842, 3387, 125240, 20111, 17…
+$ workers_female        [3m[38;5;246m<int>[39m[23m 241859, 295657, 6440, 25240, 314436, 28057, 36830, 134679, 529769, 11269, 181764, 21074, 4…
+$ percent_female        [3m[38;5;246m<dbl>[39m[23m 23.6, 30.3, 43.5, 58.7, 41.7, 63.5, 33.6, 27.5, 53.5, 76.9, 59.2, 51.2, 18.8, 45.0, 18.2, …
+$ total_earnings        [3m[38;5;246m<int>[39m[23m 120254, 73557, 67155, 61371, 78455, 74114, 62187, 99167, 70456, 71927, 67669, 74735, 72414…
+$ total_earnings_male   [3m[38;5;246m<int>[39m[23m 126142, 81041, 71530, 75190, 91998, 90071, 66579, 101318, 90278, 97552, 75328, 80754, 7462…
+$ total_earnings_female [3m[38;5;246m<int>[39m[23m 95921, 60759, 65325, 55860, 65040, 66052, 55079, 90940, 57406, 68207, 64662, 71091, 65033,…
+$ wage_percent_of_male  [3m[38;5;246m<dbl>[39m[23m 76.04208, 74.97316, 91.32532, 74.29179, 70.69719, 73.33326, 82.72729, 89.75700, 63.58803, …"
+"1",""
+"1","
+"

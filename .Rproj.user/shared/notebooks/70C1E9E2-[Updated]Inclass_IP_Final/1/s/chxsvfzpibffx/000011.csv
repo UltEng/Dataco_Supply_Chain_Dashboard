@@ -1,0 +1,5 @@
+"0","workers_clean %>%"
+"0","  filter(year == 2016) %>%"
+"0","  group_by(major_category) %>%"
+"0","  summarise(mean_gap_earnings = mean(total_earnings_male - total_earnings_female)) %>% # menghitung rata-rata selisih pendaptan"
+"0","  arrange(desc(mean_gap_earnings))"

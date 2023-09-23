@@ -1,0 +1,3 @@
+"0","# dplyr"
+"0","select(.data = workers,"
+"0","       year, occupation, total_workers)"

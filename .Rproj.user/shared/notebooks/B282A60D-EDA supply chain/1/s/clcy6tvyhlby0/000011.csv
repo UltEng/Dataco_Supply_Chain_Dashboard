@@ -1,0 +1,11 @@
+"0","order_cat  <- scm %>%"
+"0","  group_by(category_name) %>%"
+"0","  summarise(n = n()) %>%"
+"0","  rename("
+"0","    ""total_order"" = n"
+"0","  ) %>%"
+"0","  top_n(5) %>%"
+"0","  arrange(desc(total_order))"
+"1","[38;5;232mSelecting by total_order[39m
+"
+"0","order_cat"

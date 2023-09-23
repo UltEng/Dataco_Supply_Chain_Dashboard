@@ -1,0 +1,5 @@
+"0","workers %>% "
+"0","  group_by(major_category, minor_category) %>% "
+"0","  summarise(mean_earnings = mean(total_earnings))"
+"1","[38;5;232m`summarise()` has grouped output by 'major_category'. You can override using the `.groups` argument.[39m
+"

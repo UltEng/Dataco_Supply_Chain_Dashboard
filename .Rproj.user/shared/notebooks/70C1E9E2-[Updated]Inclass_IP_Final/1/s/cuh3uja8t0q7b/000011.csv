@@ -1,0 +1,6 @@
+"0","# Mas Labib"
+"0","workers_clean %>% "
+"0","  filter(year==2016, workers_female>workers_male) %>% "
+"0","  group_by(minor_category) %>% "
+"0","  summarise(Freq=n()) %>% "
+"0","  arrange(desc(Freq))"

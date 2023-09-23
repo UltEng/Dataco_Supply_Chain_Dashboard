@@ -1,0 +1,9 @@
+"0","# tanpa ungroup"
+"0","# workers %>% "
+"0","#   group_by() %>% "
+"0","#   summarise()"
+"0","workers %>% "
+"0","  group_by(major_category, minor_category) %>% "
+"0","  summarise(total_female = sum(workers_female))"
+"1","[38;5;232m`summarise()` has grouped output by 'major_category'. You can override using the `.groups` argument.[39m
+"

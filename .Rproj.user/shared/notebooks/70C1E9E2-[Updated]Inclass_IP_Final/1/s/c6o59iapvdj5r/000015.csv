@@ -1,0 +1,4 @@
+"0","# code here"
+"0","# Mba Thesi"
+"0","select(.data = workers,"
+"0","       - year, - occupation, - total_workers)"

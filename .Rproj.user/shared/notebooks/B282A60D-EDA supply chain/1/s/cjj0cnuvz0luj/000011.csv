@@ -1,0 +1,2 @@
+"0","scm$order_date <- mdy_hms(scm$order_date) "
+"0","scm$shipping_date <- mdy_hms(scm$shipping_date) "

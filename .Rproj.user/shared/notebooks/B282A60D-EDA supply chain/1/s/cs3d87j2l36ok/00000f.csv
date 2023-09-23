@@ -1,0 +1,63 @@
+"0","glimpse(scm)"
+"1","Rows: 180,519"
+"1",""
+"1","
+"
+"1","Columns: 51"
+"1",""
+"1","
+"
+"1","$ type                          [3m[38;5;246m<chr>[39m[23m ""DEBIT"", ""TRANSFER"", ""CASH"", ""DEBIT"", ""PAYMENT"", ""TRANSFER"", ""DEBIT"", ""TRANSFER"", …
+$ total_shipping_days           [3m[38;5;246m<int>[39m[23m 3, 5, 4, 3, 2, 6, 2, 2, 3, 2, 6, 5, 4, 2, 2, 2, 5, 2, 2, 0, 0, 5, 4, 3, 2, 6, 5, 4…
+$ total_shipping_days_estimated [3m[38;5;246m<int>[39m[23m 4, 4, 4, 4, 4, 4, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1, 2, 1, 1, 0, 0, 4, 2, 2, 2, 2, 2, 4…
+$ order_benefit                 [3m[38;5;246m<dbl>[39m[23m 91.25, -249.09, -247.78, 22.86, 134.21, 18.58, 95.18, 68.43, 133.72, 132.15, 130.5…
+$ sales_per_customer            [3m[38;5;246m<dbl>[39m[23m 314.64, 311.36, 309.72, 304.81, 298.25, 294.98, 288.42, 285.14, 278.59, 275.31, 27…
+$ delivery_status               [3m[38;5;246m<chr>[39m[23m ""Advance shipping"", ""Late delivery"", ""Shipping on time"", ""Advance shipping"", ""Adva…
+$ late_delivery                 [3m[38;5;246m<int>[39m[23m 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0…
+$ category_id                   [3m[38;5;246m<int>[39m[23m 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73…
+$ category_name                 [3m[38;5;246m<chr>[39m[23m ""Sporting Goods"", ""Sporting Goods"", ""Sporting Goods"", ""Sporting Goods"", ""Sporting …
+$ customer_city                 [3m[38;5;246m<chr>[39m[23m ""Caguas"", ""Caguas"", ""San Jose"", ""Los Angeles"", ""Caguas"", ""Tonawanda"", ""Caguas"", ""M…
+$ customer_country              [3m[38;5;246m<chr>[39m[23m ""Puerto Rico"", ""Puerto Rico"", ""EE. UU."", ""EE. UU."", ""Puerto Rico"", ""EE. UU."", ""Pue…
+$ customer_fname                [3m[38;5;246m<chr>[39m[23m ""Cally"", ""Irene"", ""Gillian"", ""Tana"", ""Orli"", ""Kimberly"", ""Constance"", ""Erica"", ""Ni…
+$ customer_id                   [3m[38;5;246m<int>[39m[23m 20755, 19492, 19491, 19490, 19489, 19488, 19487, 19486, 19485, 19484, 19483, 19482…
+$ customer_lname                [3m[38;5;246m<chr>[39m[23m ""Holloway"", ""Luna"", ""Maldonado"", ""Tate"", ""Hendricks"", ""Flowers"", ""Terrell"", ""Steve…
+$ customer_segment              [3m[38;5;246m<chr>[39m[23m ""Consumer"", ""Consumer"", ""Consumer"", ""Home Office"", ""Corporate"", ""Consumer"", ""Home …
+$ customer_state                [3m[38;5;246m<chr>[39m[23m ""PR"", ""PR"", ""CA"", ""CA"", ""PR"", ""NY"", ""PR"", ""FL"", ""PR"", ""CA"", ""PR"", ""NY"", ""CA"", ""PR""…
+$ customer_street               [3m[38;5;246m<chr>[39m[23m ""5365 Noble Nectar Island"", ""2679 Rustic Loop"", ""8510 Round Bear Gate"", ""3200 Ambe…
+$ customer_zipcode              [3m[38;5;246m<int>[39m[23m 725, 725, 95125, 90027, 725, 14150, 725, 33162, 725, 94583, 725, 11520, 93905, 725…
+$ department_id                 [3m[38;5;246m<int>[39m[23m 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2…
+$ department_name               [3m[38;5;246m<chr>[39m[23m ""Fitness"", ""Fitness"", ""Fitness"", ""Fitness"", ""Fitness"", ""Fitness"", ""Fitness"", ""Fitn…
+$ latitude                      [3m[38;5;246m<dbl>[39m[23m 18.25145, 18.27945, 37.29223, 34.12595, 18.25377, 43.01397, 18.24254, 25.92887, 18…
+$ longitude                     [3m[38;5;246m<dbl>[39m[23m -66.03706, -66.03706, -121.88128, -118.29102, -66.03705, -78.87907, -66.03706, -80…
+$ market                        [3m[38;5;246m<chr>[39m[23m ""Pacific Asia"", ""Pacific Asia"", ""Pacific Asia"", ""Pacific Asia"", ""Pacific Asia"", ""P…
+$ order_city                    [3m[38;5;246m<chr>[39m[23m ""Bekasi"", ""Bikaner"", ""Bikaner"", ""Townsville"", ""Townsville"", ""Toowoomba"", ""Guangzho…
+$ order_country                 [3m[38;5;246m<chr>[39m[23m ""Indonesia"", ""India"", ""India"", ""Australia"", ""Australia"", ""Australia"", ""China"", ""Ch…
+$ order_customer_id             [3m[38;5;246m<int>[39m[23m 20755, 19492, 19491, 19490, 19489, 19488, 19487, 19486, 19485, 19484, 19483, 19482…
+$ order_date                    [3m[38;5;246m<dttm>[39m[23m 2020-01-31 18:22:56, 2020-01-13 18:12:27, 2020-01-13 18:12:06, 2020-01-13 18:11:4…
+$ order_id                      [3m[38;5;246m<int>[39m[23m 77202, 75939, 75938, 75937, 75936, 75935, 75934, 75933, 75932, 75931, 75930, 75929…
+$ order_item_cardprod_id        [3m[38;5;246m<int>[39m[23m 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360…
+$ order_item_discount           [3m[38;5;246m<dbl>[39m[23m 13.11, 16.39, 18.03, 22.94, 29.50, 32.78, 39.33, 42.61, 49.16, 52.44, 55.72, 59.00…
+$ order_item_discount_rate      [3m[38;5;246m<dbl>[39m[23m 0.04, 0.05, 0.06, 0.07, 0.09, 0.10, 0.12, 0.13, 0.15, 0.16, 0.17, 0.18, 0.20, 0.25…
+$ order_item_id                 [3m[38;5;246m<int>[39m[23m 180517, 179254, 179253, 179252, 179251, 179250, 179249, 179248, 179247, 179246, 17…
+$ order_item_product_price      [3m[38;5;246m<dbl>[39m[23m 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 32…
+$ order_item_profit_ratio       [3m[38;5;246m<dbl>[39m[23m 0.29, -0.80, -0.80, 0.08, 0.45, 0.06, 0.33, 0.24, 0.48, 0.48, 0.48, 0.17, 0.08, 0.…
+$ order_item_quantity           [3m[38;5;246m<int>[39m[23m 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
+$ sales                         [3m[38;5;246m<dbl>[39m[23m 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 32…
+$ order_item_total              [3m[38;5;246m<dbl>[39m[23m 314.64, 311.36, 309.72, 304.81, 298.25, 294.98, 288.42, 285.14, 278.59, 275.31, 27…
+$ order_profit_per_order        [3m[38;5;246m<dbl>[39m[23m 91.25, -249.09, -247.78, 22.86, 134.21, 18.58, 95.18, 68.43, 133.72, 132.15, 130.5…
+$ order_region                  [3m[38;5;246m<chr>[39m[23m ""Southeast Asia"", ""South Asia"", ""South Asia"", ""Oceania"", ""Oceania"", ""Oceania"", ""Ea…
+$ order_state                   [3m[38;5;246m<chr>[39m[23m ""Java Occidental"", ""Rajast\xe1n"", ""Rajast\xe1n"", ""Queensland"", ""Queensland"", ""Quee…
+$ order_status                  [3m[38;5;246m<chr>[39m[23m ""COMPLETE"", ""PENDING"", ""CLOSED"", ""COMPLETE"", ""PENDING_PAYMENT"", ""CANCELED"", ""COMPL…
+$ order_zipcode                 [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA…
+$ product_card_id               [3m[38;5;246m<int>[39m[23m 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360, 1360…
+$ product_category_id           [3m[38;5;246m<int>[39m[23m 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73, 73…
+$ product_description           [3m[38;5;246m<lgl>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA…
+$ product_image                 [3m[38;5;246m<chr>[39m[23m ""http://images.acmesports.sports/Smart+watch "", ""http://images.acmesports.sports/S…
+$ product_name                  [3m[38;5;246m<chr>[39m[23m ""Smart watch "", ""Smart watch "", ""Smart watch "", ""Smart watch "", ""Smart watch "", ""S…
+$ product_price                 [3m[38;5;246m<dbl>[39m[23m 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 327.75, 32…
+$ product_status                [3m[38;5;246m<int>[39m[23m 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0…
+$ shipping_date                 [3m[38;5;246m<dttm>[39m[23m 2020-02-03 18:22:56, 2020-01-18 18:12:27, 2020-01-17 18:12:06, 2020-01-16 18:11:4…
+$ shipping_mode                 [3m[38;5;246m<chr>[39m[23m ""Standard Class"", ""Standard Class"", ""Standard Class"", ""Standard Class"", ""Standard …"
+"1",""
+"1","
+"

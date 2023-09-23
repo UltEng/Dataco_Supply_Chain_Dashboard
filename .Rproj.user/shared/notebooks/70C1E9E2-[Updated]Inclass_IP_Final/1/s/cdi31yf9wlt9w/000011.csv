@@ -1,0 +1,4 @@
+"0","# dplyr / dengan piping"
+"0","workers %>% "
+"0","  filter(major_category %in% c(""Computer, Engineering, and Science"", ""Healthcare Practitioners and Technical"")) %>% "
+"0","  select(c(year,major_category, total_earnings_male, total_earnings_female))"

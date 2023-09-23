@@ -1,0 +1,3 @@
+"0","# code here"
+"0","filter(.data = workers,"
+"0","       occupation %in% c(""Financial managers"", ""Legislators"", ""Cost estimators""))"

@@ -1,0 +1,9 @@
+"0","# code here"
+"0","data_agg_2 <- data_agg_2 %>% "
+"0","  select(major_category, gender, value) %>% "
+"0","  group_by(major_category, gender) %>% "
+"0","  summarise(mean_workers = mean(value)) %>% "
+"0","  mutate(proportion = round(mean_workers/sum(mean_workers)*100 ,2)) # membuat kolom baru hasil perhitungan proporsi antara mean workers male dan female"
+"1","[38;5;232m`summarise()` has grouped output by 'major_category'. You can override using the `.groups` argument.[39m
+"
+"0","data_agg_2"

@@ -1,0 +1,10 @@
+"0","# code here"
+"0","# Mas Imam"
+"0","workers %>% "
+"0","  filter(year == 2013) %>% "
+"0","  group_by(major_category) %>% "
+"0","  summarise(max_earnings = max(total_earnings)) %>% "
+"0","  ungroup() %>% "
+"0","  top_n(1)"
+"1","[38;5;232mSelecting by max_earnings[39m
+"

@@ -1,0 +1,4 @@
+"0","ggplotly(p = plot_ranking, tooltip = ""text"")"
+"2","Error in tempfile(pattern = ""_rs_html_deps_"", tmpdir = outputFolder, fileext = "".json"") : 
+  temporary name too long
+"

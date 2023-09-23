@@ -1,0 +1,3 @@
+"0",""
+"0","major_category %>% "
+"0","  arrange(-mean_earnings)"

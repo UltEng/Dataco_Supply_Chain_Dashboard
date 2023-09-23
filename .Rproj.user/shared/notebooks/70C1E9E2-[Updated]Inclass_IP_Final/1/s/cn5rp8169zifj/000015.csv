@@ -1,0 +1,3 @@
+"0","# Mas Labib"
+"0","workers %>% "
+"0","  mutate(percent_male= (workers_male/total_workers)*100)"

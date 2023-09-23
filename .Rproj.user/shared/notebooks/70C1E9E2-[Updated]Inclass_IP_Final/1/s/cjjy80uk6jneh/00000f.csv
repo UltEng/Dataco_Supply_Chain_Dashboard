@@ -1,0 +1,4 @@
+"0","# Please run code below"
+"0","pivot_wider(data = data_agg_2,"
+"0","            names_from = gender,"
+"0","            values_from = value)"

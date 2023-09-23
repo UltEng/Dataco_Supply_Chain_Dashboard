@@ -1,0 +1,3 @@
+"0","# Please type your code here"
+"0","workers <- read.csv(""data_input/jobs_gender.csv"")"
+"0","workers"

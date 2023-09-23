@@ -1,0 +1,12 @@
+"0","# code here"
+"0","# Mas Ahmad"
+"0","workers_clean %>% "
+"0","  group_by(year, minor_category) %>% "
+"0","  summarise(female_dominant = percent_female > 50) %>% # membuat kolom baru female_dominant"
+"0","  filter(female_dominant == T, year == 2016) %>% # filtering yang female_dominant nya Lebih besar dan filter tahun"
+"0","  summarise(n = n()) %>% "
+"0","  arrange(-n)"
+"1","[38;5;232m`summarise()` has grouped output by 'year', 'minor_category'. You can override using the `.groups` argument.[39m
+"
+"1","[38;5;232m`summarise()` has grouped output by 'year'. You can override using the `.groups` argument.[39m
+"

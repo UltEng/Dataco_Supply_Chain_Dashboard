@@ -1,0 +1,5 @@
+"0","# Final cleansing pada data workers"
+"0","workers_clean <- workers %>% "
+"0","  select(-wage_percent_of_male) %>% "
+"0","  na.omit(total_earnings_male, total_earnings_female)"
+"0","workers_clean"

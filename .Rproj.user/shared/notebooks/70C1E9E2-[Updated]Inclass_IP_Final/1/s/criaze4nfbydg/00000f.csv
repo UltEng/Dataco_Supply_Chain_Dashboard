@@ -1,0 +1,4 @@
+"0","# code here"
+"0","plot_agg_1 <-  plot_agg_1 %>% "
+"0","mutate(label=glue(""Mean Gap : $ {round(mean_gap_earnings, 2)}"
+"0","     Major Category/Division : {major_category}""))"

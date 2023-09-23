@@ -1,0 +1,116 @@
+dashboardPage(title ="DataCo Smart Supply Chain Analysis Dashboard",
+              skin = "black",
+              
+              # ------ HEADER -------
+              dashboardHeader(title = span(tagList(icon = icon("chart-line"),
+                                                   "Supply Chain Analysis"))),
+              
+              # ------ SIDE BAR -------
+              dashboardSidebar(
+                sidebarMenu(
+                  menuItem(text = "Overview",
+                           tabName = "page1",
+                           icon = icon("magnifying-glass")),
+                  menuItem(text = "Analysis",
+                           icon = icon("chart-line"),
+                           tabName = "page2",
+                           badgeLabel = "new",
+                           badgeColor = "green"),
+                  menuItem(text = "Data Table",
+                           tabName = "page3",
+                           icon = icon("table-list"))
+                )
+              ),
+              
+              
+              # ------ BODY -------
+              dashboardBody(
+                tabItems(
+                  tabItem(tabName = "page1",
+                          h2("Sales Report"),
+                          br(),
+                          fluidRow(
+                            # A static infoBox
+                            infoBox(title = "Total Order", 
+                                    value = nrow(scm), 
+                                    icon = icon("boxes-stacked"),
+                                    color = "purple"),
+                            infoBox(title = "Total Sales",
+                                    value = sum(scm$sales), 
+                                    icon = icon("dollar-sign"),
+                                    color = "green"),
+                            infoBox(title = "Total Country", 
+                                    value = length(unique(scm$order_country)), 
+                                    icon = icon("earth-americas"),
+                                    color = "light-blue")
+                          ),
+                          # Row 2 (Pie Chart)
+                          fluidRow(  
+                            box(width = 6,
+                                echarts4rOutput("pie1",height = 300)),
+                            box(width = 6,
+                                echarts4rOutput("pie2",height = 300))
+                          ),
+                          fluidRow(  
+                            box(width = 6,
+                                echarts4rOutput("bar1",height = 400)),
+                            box(width = 6,
+                                echarts4rOutput("bar2",height = 400))
+                          )
+                     ),
+                  tabItem(tabName = "page2",
+                          fluidRow(
+                            infoBox(title = "Average Ship Duration", 
+                                    value = round(mean(scm$total_shipping_days)), 
+                                    icon = icon("boxes-stacked"),
+                                    color = "purple"),
+                            infoBox(title = "Average Sales",
+                                    value = mean(scm$sales), 
+                                    icon = icon("dollar-sign"),
+                                    color = "green"),
+                            infoBox(title = "Total Late Delivery", 
+                                    value = sum(scm$late_delivery), 
+                                    icon = icon("triangle-exclamation"),
+                                    color = "red")
+                          ),
+                          h3("Sales Analysis"),
+                          fluidRow(
+                            box(width = 12,
+                                echarts4rOutput("line1",height = 500))
+                          ), 
+                          fluidRow(
+                            box(width = 12,
+                                echarts4rOutput("hist1",height = 500))
+                          ),
+                          fluidRow(
+                            box(width = 6,
+                                echarts4rOutput("bar4",height = 400)),
+                            box(width = 6,
+                                echarts4rOutput("bar5",height = 400))
+                            
+                          ),
+                          h3("Shipment Analysis"),
+                          fluidRow(
+                            box(width = 12,
+                                echarts4rOutput("bar3",height = 500))
+                          ),
+                          fluidRow(
+                            box(width = 12,
+                                echarts4rOutput("bar6",height = 500))
+                          )
+                          
+                    ),
+                  tabItem(tabName = "page3",
+                          h2("Dataset DataCo Smart Supply Chain"),
+                          fluidRow(
+                            box(width = 12,
+                                # title = "Dataset DataCo Smart Supply Chain",
+                                dataTableOutput(outputId = "table_data")) 
+                          )
+                    )
+                  
+                )
+              )
+)
+                          
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+<script src="lib/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="lib/echarts4r-4.8.0/echarts-en.min.js"></script>
+<script src="lib/echarts4r-4.8.0/ecStat.min.js"></script>
+<script src="lib/echarts4r-4.8.0/dataTool.min.js"></script>
+<script src="lib/echarts4r-binding-0.4.4/echarts4r.js"></script>
+
+</head>
+<body>
+<!-- htmlwidget-container-begin -->
+<div id="htmlwidget-e10c996256cb2a065427" style="width:auto;height:500px;" class="echarts4r html-widget"></div>
+<!-- htmlwidget-container-end -->
+<script type="application/json" data-for="htmlwidget-e10c996256cb2a065427">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"yAxis":[{"show":false}],"xAxis":[{"data":["Fishing","Cleats","Camping & Hiking","Cardio Equipment","Women's Apparel"],"type":"category","boundaryGap":true,"axisTick":false}],"series":[{"data":[{"value":["Fishing","6929654"]},{"value":["Cleats","4431943"]},{"value":["Camping & Hiking","4118426"]},{"value":["Cardio Equipment","3694843"]},{"value":["Women's Apparel","3147800"]}],"name":"total_sales","type":"bar","yAxisIndex":0,"xAxisIndex":0,"coordinateSystem":"cartesian2d","label":{"show":true,"position":"top","formatter":"\n                        function (params) {\n                          return (parseFloat(params.value[1]).toLocaleString('id-ID'));\n                        }\n                      "}}],"tooltip":{"trigger":"item","formatter":"function(params, ticket, callback) {\n        var fmt = new Intl.NumberFormat('id-ID', {\"style\":\"decimal\",\"minimumFractionDigits\":0,\"maximumFractionDigits\":0,\"currency\":\"USD\"});\n        var idx = 0;\n        if (params.name == params.value[0]) {\n            idx = 1;\n        }\n        return params.value[0] + '<br>' +\n               params.marker + ' ' +\n               params.seriesName + ': ' + fmt.format(parseFloat(params.value[idx]));\n    }"},"color":["#163ec2"],"title":[{"left":"center","text":"Top 5 Sales by Category"}]},"dispose":true},"evals":["opts.series.0.label.formatter","opts.tooltip.formatter"],"jsHooks":[]}</script>
+<!-- htmlwidget-sizing-policy-base64 PHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9odG1sd2lkZ2V0LXNpemluZyIgZGF0YS1mb3I9Imh0bWx3aWRnZXQtZTEwYzk5NjI1NmNiMmEwNjU0MjciPnsidmlld2VyIjp7IndpZHRoIjoiYXV0byIsImhlaWdodCI6MzUwLCJwYWRkaW5nIjowLCJmaWxsIjp0cnVlfSwiYnJvd3NlciI6eyJ3aWR0aCI6ImF1dG8iLCJoZWlnaHQiOjUwMCwicGFkZGluZyI6MCwiZmlsbCI6ZmFsc2V9fTwvc2NyaXB0Pg== -->
+</body>
+</html>

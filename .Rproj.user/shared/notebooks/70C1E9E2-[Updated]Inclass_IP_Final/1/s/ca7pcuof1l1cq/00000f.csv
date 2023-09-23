@@ -1,0 +1,3 @@
+"0","# base"
+"0","workers$year <- as.factor(workers$year)"
+"0","workers"

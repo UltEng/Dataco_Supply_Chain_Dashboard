@@ -1,0 +1,82 @@
+"0","library(dplyr) "
+"2","Warning:"
+"2"," package ‘dplyr’ was built under R version 4.2.2
+"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(plotly) "
+"2","Warning:"
+"2"," package ‘plotly’ was built under R version 4.2.2
+"
+"2","Loading required package: ggplot2
+"
+"2","Warning:"
+"2"," package ‘ggplot2’ was built under R version 4.2.3
+"
+"2","Need help? Try Stackoverflow: https://stackoverflow.com/tags/ggplot2
+"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","
+Attaching package: ‘plotly’
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    filter
+
+"
+"2","The following object is masked from ‘package:graphics’:
+
+    layout
+
+"
+"0","library(glue)"
+"0","library(scales) "
+"2","Warning:"
+"2"," package ‘scales’ was built under R version 4.2.2
+"
+"0","library(tidyr) "
+"2","Warning:"
+"2"," package ‘tidyr’ was built under R version 4.2.3
+"
+"0","library(ggpubr) "
+"2","Warning:"
+"2"," package ‘ggpubr’ was built under R version 4.2.3
+"
+"0","library(lubridate)"
+"2","Warning:"
+"2"," package ‘lubridate’ was built under R version 4.2.2
+"
+"2","
+Attaching package: ‘lubridate’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+"
+"0","library(echarts4r)"
+"2","Warning:"
+"2"," package ‘echarts4r’ was built under R version 4.2.2
+"

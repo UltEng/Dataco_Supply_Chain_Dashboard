@@ -1,0 +1,8 @@
+"0","segm_chart <- scm %>%"
+"0","  group_by(customer_segment) %>%"
+"0","  summarise(n = n()) %>%"
+"0","  rename("
+"0","    ""Total Data"" = n"
+"0","  ) "
+"0",""
+"0","segm_chart"

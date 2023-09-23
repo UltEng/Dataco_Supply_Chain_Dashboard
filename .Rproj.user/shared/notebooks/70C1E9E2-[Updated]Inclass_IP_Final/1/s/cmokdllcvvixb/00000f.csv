@@ -1,0 +1,7 @@
+"0","#code here"
+"0","ggplotly(plot_dist, tooltip = ""text"")"
+"1","[38;5;232m`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = ""cs"")'[39m
+"
+"2","Error in tempfile(pattern = ""_rs_html_deps_"", tmpdir = outputFolder, fileext = "".json"") : 
+  temporary name too long
+"
